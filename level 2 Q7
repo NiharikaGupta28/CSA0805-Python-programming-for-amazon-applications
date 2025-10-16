@@ -1,0 +1,14 @@
+name = input("Enter customer name: ")
+mobile = input("Enter mobile number: ")
+cost = float(input("Enter purchase amount: "))
+
+if cost > 5000:
+    discount = cost * 0.1
+else:
+    discount = cost * 0.05
+
+total = cost - discount
+print("Customer Name:", name)
+print("Mobile Number:", mobile)
+print("Discount:", discount)
+print("Total Amount to Pay:", total)
