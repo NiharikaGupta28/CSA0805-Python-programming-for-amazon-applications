@@ -1,0 +1,12 @@
+arr = [14, 16, 87, 36, 25, 89, 34]
+m = 1
+n = 3
+arr.sort()
+
+m_max = arr[-m]
+n_min = arr[n-1]
+
+print(f"{m}st Maximum Number =", m_max)
+print(f"{n}rd Minimum Number =", n_min)
+print("Sum =", m_max + n_min)
+print("Difference =", m_max - n_min)
