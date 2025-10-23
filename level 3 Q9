@@ -1,0 +1,9 @@
+num = "1432219"
+k = 3
+stack = []
+for d in num:
+    while k and stack and stack[-1] > d:
+        stack.pop()
+        k -= 1
+    stack.append(d)
+print("".join(stack)[:len(stack)-k].lstrip('0') or "0")
