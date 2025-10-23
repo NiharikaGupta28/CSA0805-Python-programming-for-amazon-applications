@@ -1,0 +1,2 @@
+n = input("Enter number: ")
+print("LSB:", n[0], "& MSB:", n[-1])
