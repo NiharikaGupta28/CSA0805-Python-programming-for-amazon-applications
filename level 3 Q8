@@ -1,0 +1,6 @@
+nums = [5,7,7,8,8,10]
+t = 8
+if t in nums:
+    print([nums.index(t), len(nums)-1 - nums[::-1].index(t)])
+else:
+    print([-1, -1])
